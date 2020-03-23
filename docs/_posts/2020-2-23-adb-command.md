@@ -1,3 +1,21 @@
+---
+title: "常用命令"
+image: 
+  path: /images/so-simple-sample-image-3.jpg
+  thumbnail: /images/so-simple-sample-image-3-400x200.jpg
+  caption: "Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
+categories:
+  - Layout
+tags:
+    - adb
+    - fastboot
+    - python
+    - git
+    - vim
+    - Ubuntu
+last_modified_at: 2018-01-31T14:28:50-05:00
+---
+
 # Pyhton
 1. 更新pip: 
 

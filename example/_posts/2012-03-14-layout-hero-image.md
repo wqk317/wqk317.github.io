@@ -7,12 +7,9 @@ image:
 categories:
   - Layout
 tags:
-    - adb
-    - fastboot
-    - python
-    - git
-    - vim
-    - Ubuntu
+  - content
+  - image
+  - layout
 last_modified_at: 2018-01-31T14:28:50-05:00
 ---
 

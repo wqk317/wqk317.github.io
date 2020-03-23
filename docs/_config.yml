@@ -18,7 +18,7 @@
 remote_theme: mmistakes/so-simple-theme
 
 locale: en-US
-title: "So Simple"
+title: "My Blogs"
 description: "A simple Jekyll theme for words and pictures."
 baseurl: "/so-simple-theme"
 url: "https://mmistakes.github.io"
@@ -39,8 +39,8 @@ google_analytics: "UA-2011187-2"
 disqus:
   shortname: "sosimpletheme"
 twitter:
-  username: "mmistakes"
-google_site_verification: "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y"
+  username: #""
+google_site_verification: #""
 
 # Liquid
 liquid:
@@ -74,6 +74,12 @@ tag_archive_path: "/tags/#"
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+    - adb
+    - fastboot
+    - python
+    - git
+    - vim
+    - Ubuntu
 
 plugins:
   - jekyll-seo-tag

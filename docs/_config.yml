@@ -74,12 +74,6 @@ tag_archive_path: "/tags/#"
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-    - adb
-    - fastboot
-    - python
-    - git
-    - vim
-    - Ubuntu
 
 plugins:
   - jekyll-seo-tag

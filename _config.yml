@@ -20,7 +20,7 @@ locale: en-US
 title: "My Blogs"
 description: "生活总结, 工作随笔"
 baseurl: "/blog"
-url: "https://wqk317.github.io"
+url: #"https://wqk317.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true

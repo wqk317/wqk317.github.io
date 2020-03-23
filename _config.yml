@@ -19,7 +19,7 @@ skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "My Blogs"
 description: "生活总结, 工作随笔"
-baseurl: "/blog"
+baseurl: "/docs"
 url:  "https://wqk317.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"

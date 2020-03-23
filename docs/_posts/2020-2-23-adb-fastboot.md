@@ -6,7 +6,7 @@ categories:
 tags:
     - adb
     - fastboot
-	- Android
+    - Android
 last_modified_at: 2020-03-23T14:28:50
 ---
 

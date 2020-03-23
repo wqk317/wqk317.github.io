@@ -1,11 +1,11 @@
 ---
 title: "常用命令"
-image: 
-  path: /images/so-simple-sample-image-3.jpg
-  thumbnail: /images/so-simple-sample-image-3-400x200.jpg
-  caption: "Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
+# image: 
+  # path: /images/so-simple-sample-image-3.jpg
+  # thumbnail: /images/so-simple-sample-image-3-400x200.jpg
+  # caption: "Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
 categories:
-  - Layout
+  - Command
 tags:
     - adb
     - fastboot
@@ -13,7 +13,7 @@ tags:
     - git
     - vim
     - Ubuntu
-last_modified_at: 2018-01-31T14:28:50-05:00
+last_modified_at: 2020-03-23T14:28:50-05:00
 ---
 
 # Pyhton

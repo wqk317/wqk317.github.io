@@ -16,14 +16,14 @@
 theme: jekyll-theme-so-simple
 # remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/default.css"
-locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
-baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+locale: zh-CN
+title: "My Blogs"
+description: "生活总结, 工作随笔"
+baseurl: "/blog"
+url: "https://wqk317.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
+read_time: true
 words_per_minute: # 200
 mathjax:
   enable: # MathJax equations, e.g. true, false (default)

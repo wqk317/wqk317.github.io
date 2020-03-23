@@ -16,7 +16,7 @@
 theme: jekyll-theme-so-simple
 # remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/default.css"
-locale: zh-CN
+locale: en-US
 title: "My Blogs"
 description: "生活总结, 工作随笔"
 baseurl: "/blog"

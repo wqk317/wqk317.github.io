@@ -4,4 +4,4 @@ License: ![GitHub](https://img.shields.io/github/license/wqk317/wqk317.github.io
 
 # Hello world!
 
-编译状态链接: https://travis-ci.org/
+查询编译状态: https://travis-ci.org/

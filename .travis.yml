@@ -2,3 +2,13 @@ language: ruby
 rvm:
   - 2.3
 script: "bundle exec jekyll build"
+
+notifications:
+  webhooks:
+    urls:
+      - https://open.feishu.cn/officialapp/notify/c1d270fd8872931e6be01d285e6cf41dc5e72b432611d02b74e87c57cbf7b534
+    on_success: change # default: always
+    on_failure: always # default: always
+    on_start:   change # default: never
+    on_cancel:  always # default: always
+    on_error:   always # default: always

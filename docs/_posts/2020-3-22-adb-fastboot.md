@@ -13,11 +13,11 @@ last_modified_at: 2020-03-23T14:28:50
 # adb
 1. [Google官方下载地址](https://developer.android.com/studio/releases/platform-tools)
 
-2. 批量pull某一类文件
+2. 批量pull某一类文件:
 
 	`adb shell ls data/media/0/app*.txt | tr "\n\r" " " | xargs -n1 adb pull`
 	
-3. 保留数据卸载app
+3. 保留数据卸载app:
 
 	```
 	保留数据卸载app: adb uninstall -k <package>
@@ -29,12 +29,12 @@ last_modified_at: 2020-03-23T14:28:50
 	请尝试adb shell pm uninstall -k
 	```
 	
-4. WSL下使用win adb
+4. WSL下使用win上配置的adb:
 
 	`sudo ln -s /mnt/d/Android/sdk/platform-tools/adb.exe /usr/bin/adb && sudo ln -s /mnt/d/Android/sdk/platform-tools/fastboot.exe /usr/bin/fastboot`
 	/usr/bin/adb和fastboot需要提前删除
 	
-5. Android原生跳过开机引导
+5. Android原生跳过开机引导:
 
 	```
 	adb shell settings put secure user_setup_complete 1
@@ -44,7 +44,7 @@ last_modified_at: 2020-03-23T14:28:50
 	无返回值即为成功
 	```
 	
-6. adb截图
+6. 使用adb命令截图
 	
 	```
 	adb shell /system/bin/screencap -p /sdcard/screenshot.png
@@ -65,3 +65,10 @@ last_modified_at: 2020-03-23T14:28:50
     ② 找到apk位置: adb shell pm path com
     ③ adb pull 导出 
 	```
+
+9. Samsung S20+/Ultra 手机被修改FHD + 96Hz 屏幕:
+
+```
+adb shell settings put system peak_refresh_rate 96.0 
+adb shell settings put system min_refresh_rate 96.0
+```
